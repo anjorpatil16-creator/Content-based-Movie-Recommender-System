@@ -40,9 +40,7 @@ movie-recommender-system/
 └── README.md
 ```
 
-> **Note:** The datasets `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv` are required to run this notebook.  
-> Download them from [Kaggle – TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
-
+> **Note:** Datasets are downloaded automatically via `kagglehub` — no manual download needed.
 ---
 
 ## Tech Stack
@@ -59,18 +57,11 @@ movie-recommender-system/
 
 ## Getting Started
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/movie-recommender-system.git
-cd movie-recommender-system
+This notebook is recommended to run on **Google Colab** (no setup required).
 
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Download the datasets from Kaggle and place them in the project folder
-
-# 4. Launch Jupyter Notebook
-jupyter notebook Movie_Recommender.ipynb
+1. Go to [colab.research.google.com](https://colab.research.google.com)
+2. Click **File → Upload notebook** and upload `Movie_Recommender.ipynb`
+3. Run all cells — datasets are downloaded automatically via `kagglehub`
 ```
 
 ---
