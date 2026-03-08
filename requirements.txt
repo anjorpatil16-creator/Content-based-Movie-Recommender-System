@@ -2,4 +2,5 @@ pandas
 numpy
 nltk
 scikit-learn
+kagglehub
 jupyter
